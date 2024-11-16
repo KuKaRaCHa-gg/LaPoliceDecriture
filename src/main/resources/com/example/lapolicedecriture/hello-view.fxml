@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <bottom>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox layoutY="572.0" prefHeight="45.0" prefWidth="577.0">
+                    <children>
+                        <Pane prefHeight="35.0" prefWidth="14.0" />
+                        <Button mnemonicParsing="false" text="Définir par défaut" />
+                        <Pane prefHeight="35.0" prefWidth="43.0" />
+                        <Button mnemonicParsing="false" text="Effets de texte..." />
+                        <Pane prefHeight="52.0" prefWidth="97.0" />
+                        <Button mnemonicParsing="false" text="ok" />
+                        <Pane prefHeight="35.0" prefWidth="32.0" />
+                        <Button fx:id="Annuler" mnemonicParsing="false" onAction="#onCancelClick" text="Annuler" />
+                        <Pane prefHeight="35.0" prefWidth="10.0" />
+                    </children>
+                </HBox>
+                <FlowPane layoutY="150.0" prefHeight="200.0" prefWidth="577.0" />
+                <FlowPane layoutX="4.0" layoutY="309.0" prefHeight="253.0" prefWidth="577.0" />
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>
